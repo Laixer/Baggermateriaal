@@ -1,0 +1,700 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"Projectup",
+				"ProjectUpdateReport"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"un",
+				"uint8_t"
+			],
+			[
+				"marsh",
+				"marshall"
+			],
+			[
+				"marshall",
+				"marshall_t"
+			],
+			[
+				"hi",
+				"hint_option"
+			],
+			[
+				"cont",
+				"continue"
+			],
+			[
+				"mars",
+				"marshall_count"
+			],
+			[
+				"M",
+				"MTYPE_OBJECT"
+			],
+			[
+				"quid",
+				"quidtostr"
+			],
+			[
+				"MT",
+				"MTYPE_STRING"
+			],
+			[
+				"psz",
+				"psz_offset"
+			],
+			[
+				"QUID",
+				"QUID_LENGTH"
+			],
+			[
+				"is",
+				"iserror"
+			],
+			[
+				"from_b",
+				"from_be64"
+			],
+			[
+				"seq",
+				"sequence"
+			],
+			[
+				"new",
+				"new_base"
+			],
+			[
+				"MTY",
+				"MTYPE_QUID"
+			],
+			[
+				"ined",
+				"index_offset"
+			],
+			[
+				"__b",
+				"__be64"
+			],
+			[
+				"from",
+				"from_be16"
+			],
+			[
+				"to_",
+				"to_be16"
+			],
+			[
+				"cn",
+				"control"
+			],
+			[
+				"alias",
+				"alias_add"
+			],
+			[
+				"page",
+				"page_size"
+			],
+			[
+				"page_s",
+				"page_sequence"
+			],
+			[
+				"page_",
+				"page_sequence"
+			],
+			[
+				"flu",
+				"flush_base"
+			],
+			[
+				"list",
+				"list_size"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"from_",
+				"from_be32"
+			],
+			[
+				"to",
+				"to_be16"
+			],
+			[
+				"__",
+				"__be32"
+			],
+			[
+				"ele",
+				"element_size"
+			],
+			[
+				"ind",
+				"index_element"
+			],
+			[
+				"engine_in",
+				"engine_index_list"
+			],
+			[
+				"index_",
+				"index_list_top"
+			],
+			[
+				"index",
+				"index_list_top"
+			],
+			[
+				"nam",
+				"name_len"
+			],
+			[
+				"TEST",
+				"TEST_SOURCES"
+			],
+			[
+				"in",
+				"inc	#include \"…\""
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 32.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/eve/baggermateriaal"
+	],
+	"file_history":
+	[
+		"/home/eve/cloud/config/session.php",
+		"/home/eve/cloud/app/Http/Middleware/AuthenticateEdit.php",
+		"/home/eve/cloud/app/Http/Middleware/Authenticate.php",
+		"/home/eve/cloud/app/Listeners/ProjectClose.php",
+		"/home/eve/cloud/app/Listeners/ProjectReportConcept.php",
+		"/home/eve/cloud/app/Listeners/ProjectReportFinal.php",
+		"/home/eve/cloud/app/Listeners/ProjectReportTodoComplete.php",
+		"/home/eve/cloud/app/Listeners/ProjectStatusNotification.php",
+		"/home/eve/cloud/public/js/controllers.js",
+		"/home/eve/cloud/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/home/eve/cloud/app/Providers/EventServiceProvider.php",
+		"/home/eve/cloud/app/Project.php",
+		"/home/eve/cloud/resources/views/project_details.blade.php",
+		"/home/eve/cloud/resources/views/new_project_window.blade.php",
+		"/home/eve/cloud/resources/views/dashboard.blade.php",
+		"/home/eve/cloud/vendor/vlg/gssauth/src/VLGPortalProvider.php",
+		"/home/eve/cloud/app/Http/routes.php",
+		"/home/eve/cloud/.env",
+		"/home/eve/cloud/app/Http/Controllers/ApiController.php",
+		"/home/eve/cloud/vendor/vlg/gssauth/src/AbstractProvider.php",
+		"/home/eve/cloud/app/Events/ProjectStatusChange.php",
+		"/home/eve/cloud/app/Report.php",
+		"/home/eve/cloud/app/Events/ProjectUploadReport.php",
+		"/home/eve/cloud/resources/views/attach_todo_window.blade.php",
+		"/home/eve/cloud/app/Events/ProjectClose.php",
+		"/home/eve/cloud/app/Events/ProjectUpdateReport.php",
+		"/home/eve/cloud/app/Http/Controllers/HomeController.php",
+		"/home/eve/cloud/public/js/services.js",
+		"/home/eve/cloud/app/Audit.php",
+		"/home/eve/cloud/config/services.php",
+		"/home/eve/cloud/config/mail.php",
+		"/home/eve/cloud/public/img/p_big2.jpg",
+		"/home/eve/cloud/resources/views/common/main.blade.php",
+		"/home/eve/cloud/public/js/app.js",
+		"/home/eve/cloud/public/js/config.js",
+		"/home/eve/cloud/resources/views/validation.blade.php",
+		"/home/eve/cloud/public/css/style.css",
+		"/home/eve/cloud/public/js/directives.js",
+		"/home/eve/cloud/resources/views/common/header.blade.php",
+		"/home/eve/cloud/app/ProjectThread.php",
+		"/home/eve/cloud/vendor/laravel/framework/src/Illuminate/Support/Facades/Cache.php",
+		"/home/eve/cloud/vendor/vlg/gssauth/src/PortalGuard.php",
+		"/home/eve/cloud/vendor/vlg/gssauth/src/Facades/Portal.php",
+		"/home/eve/cloud/.gitignore",
+		"/home/eve/cloud/resources/views/unauth.blade.php",
+		"/home/eve/cloud/resources/views/errors/404.blade.php",
+		"/home/eve/cloud/resources/views/errors/500.blade.php",
+		"/home/eve/cloud/resources/views/errors/503.blade.php",
+		"/home/eve/cloud/app/Http/Kernel.php",
+		"/home/eve/cloud/app/Http/Controllers/AuthController.php",
+		"/home/eve/cloud/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php",
+		"/home/eve/cloud/config/auth.php",
+		"/home/eve/cloud/app/Providers/AppServiceProvider.php",
+		"/home/eve/cloud/vendor/vlg/gssauth/src/PortalUserProvider.php",
+		"/home/eve/cloud/vendor/vlg/gssauth/src/PortalServiceProvider.php",
+		"/home/eve/cloud/config/app.php",
+		"/home/eve/cloud/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/home/eve/cloud/resources/views/common/footer.blade.php",
+		"/home/eve/cloud/app/QuickGit.php",
+		"/home/eve/cloud/app/ProjectTodo.php",
+		"/home/eve/cloud/database/seeds/StaticSeeder.php",
+		"/home/eve/cloud/app/ProjectField.php",
+		"/home/eve/cloud/app/Http/ProjectField.php",
+		"/home/eve/cloud/resources/views/main.blade.php",
+		"/home/eve/cloud/public/robots.txt",
+		"/home/eve/cloud/resources/views/projects.blade.php",
+		"/home/eve/cloud/public/js/cloud.js",
+		"/home/eve/.kodi/addons/plugin.audio.kiisfm/default.py",
+		"/home/eve/plugin.audio.kiisfm/default.py",
+		"/home/eve/KIISFM/default.py",
+		"/home/eve/KIISFM/addon.xml",
+		"/home/eve/cloud/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php",
+		"/home/eve/cloud/vendor/laravel/framework/src/Illuminate/Support/Facades/Storage.php",
+		"/home/eve/cloud/resources/views/toastr.blade.php",
+		"/home/eve/cloud/public/js/service.js",
+		"/home/eve/cloud/public/views/modal_example1.html",
+		"/home/eve/cloud/public/js/plugins/dropzone/dropzone.js",
+		"/home/eve/cloud/resources/views/loading_buttons.blade.php",
+		"/home/eve/cloud/resources/views/modal_window.blade.php",
+		"/home/eve/cloud/resources/views/sweet_alert.blade.php",
+		"/home/eve/cloud/public/views/validation.html",
+		"/home/eve/cloud/public/views/loading_buttons.html",
+		"/home/eve/cloud/public/views/toastr.html",
+		"/home/eve/cloud/public/views/sweet_alert.html",
+		"/home/eve/cloud/public/views/modal_window.html",
+		"/home/eve/cloud/public/ang/js/controllers.js",
+		"/home/eve/cloud/public/views/common/topnavbar.html",
+		"/home/eve/cloud/public/views/common/content.html",
+		"/home/eve/cloud/public/views/project_detail.html",
+		"/home/eve/cloud/resources/views/project_detail.blade.php",
+		"/home/eve/cloud/public/views/dashboard_1.html",
+		"/home/eve/cloud/resources/views/dashboard.php",
+		"/home/eve/cloud/public/views/forum_view.html",
+		"/home/eve/cloud/public/css/plugins/dropzone/dropzone.css",
+		"/home/eve/cloud/public/views/form_file_upload.html",
+		"/home/eve/cloud/public/views/widgets.html",
+		"/home/eve/cloud/public/views/projects.html",
+		"/home/eve/cloud/app/ReportType.php",
+		"/home/eve/cloud/app/ProjectStatus.php",
+		"/home/eve/cloud/database/seeds/DatabaseSeeder.php",
+		"/home/eve/cloud/composer.json",
+		"/home/eve/cloud/public/views/common/footer.html",
+		"/home/eve/cloud/public/views/common/top_navigation.html",
+		"/home/eve/cloud/public/js/inspinia.js",
+		"/home/eve/cloud/public/ang/index.html",
+		"/home/eve/atkin/prime.c",
+		"/home/eve/atkin/primegen.c",
+		"/home/eve/quantica/src/pager.c",
+		"/home/eve/quantica/src/core.c",
+		"/home/eve/quantica/src/marshall.c",
+		"/home/eve/quantica/src/btree.c",
+		"/home/eve/quantica/src/btree.h",
+		"/home/eve/quantica/src/bootstrap.c",
+		"/home/eve/quantica/src/base.h",
+		"/home/eve/quantica/src/base.c",
+		"/home/eve/quantica/src/alias.c",
+		"/home/eve/quantica/src/jwt.h",
+		"/home/eve/quantica/src/engine.c",
+		"/home/eve/quantica/src/pager.h",
+		"/home/eve/quantica/src/jwt.c",
+		"/home/eve/quantica/src/test.c",
+		"/home/eve/quantica/src/djb2a_hash.c",
+		"/home/eve/quantica/src/djb2a_hash.h",
+		"/home/eve/quantica/src/index.h",
+		"/home/eve/quantica/src/history.c",
+		"/home/eve/mod_ambig/mod_ambig.c",
+		"/home/eve/mod_ambig/LICENSE",
+		"/home/eve/mod_ambig.c"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/eve/cloud/public/js",
+			"/home/eve/cloud/public/css",
+			"/home/eve/cloud/public/js",
+			"/home/eve/cloud/public/css",
+			"/home/eve/cloud/public/js",
+			"/home/eve/cloud/public/views",
+			"/home/eve/cloud/public",
+			"/home/eve/cloud/public/ang",
+			"/home/eve/cloud/public/views",
+			"/home/eve/cloud/public/js",
+			"/home/eve/cloud/public/css",
+			"/home/eve/cloud/public/views",
+			"/home/eve/quantica/src",
+			"/home/eve/quantica",
+			"/home/eve/quantica/src",
+			"/home/eve/quantica",
+			"/home/eve/quantica/src",
+			"/home/eve/quantica",
+			"/home/eve/quantica/src",
+			"/home/eve/quantica/include",
+			"/home/eve/quantica/src",
+			"/home/eve/quantica",
+			"/home/eve/quantica/src",
+			"/home/eve/quantica",
+			"/home/eve/quantica/src",
+			"/home/eve/quantica",
+			"/home/eve/quantica/src",
+			"/home/eve/quantica"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			");\n",
+			"';\n",
+			"ProjectClose",
+			"ProjectStatusChange",
+			"contr",
+			".footer",
+			"1ab394",
+			"navbar-brand",
+			"',\n",
+			"toas",
+			"toaster",
+			"toa	",
+			"');\n",
+			"cons",
+			"HomeController",
+			"}\n",
+			" \n",
+			"MainCtrl",
+			"SweetAlert",
+			"\n        ",
+			"message",
+			"toaster",
+			"iCh",
+			"tra",
+			"contr",
+			"status",
+			"xbmcaddon",
+			"message",
+			"feed-element",
+			"Hello",
+			"summer",
+			"sum",
+			"contr",
+			"control",
+			"getPa",
+			"loca",
+			"loc",
+			"prod",
+			"open1",
+			"loadBefore",
+			"message",
+			"mode",
+			"moe",
+			"mod",
+			"side",
+			"formValidation",
+			"fitHeight",
+			"loadingCtrl",
+			"chartJsCtrl",
+			"char",
+			"CHART",
+			"()",
+			"rickshawChartCtrl",
+			"jstreeCtrl",
+			"{{",
+			"Goog",
+			"notifications",
+			"dropzone",
+			"Drop files",
+			"dz-message",
+			"(or click)",
+			"dropzone",
+			"dropz",
+			"form",
+			"tourCtrl",
+			"Ctl",
+			"Ctr",
+			"nref",
+			"Spanish",
+			"{{",
+			"unsigned long long",
+			"mod_a",
+			"ap_log_rerror",
+			"eva",
+			"uint64_t",
+			"freekey",
+			"indexF",
+			"index_list_get_element",
+			"index_list_add",
+			"inrs",
+			"WPA_",
+			"WPA_GET_BE32",
+			"u8",
+			"u32",
+			"os_",
+			"os_memcmp_const",
+			"TODO",
+			"5381",
+			"_dump",
+			"marshall_merge",
+			"newobject",
+			"marshall_merge",
+			"btree_get",
+			"alloc_vector",
+			"vec\\\\\\",
+			"nores",
+			"unsigned_parts",
+			"index_list_get_index",
+			"base64",
+			"h",
+			"base64_encode",
+			"url_e",
+			"TODO",
+			"ef4b4df470a1",
+			"TODO",
+			"_dum",
+			"marshall_separate",
+			"engine_delete",
+			");\n",
+			"quidtostr",
+			"marshall_convert",
+			"iserror",
+			"a475446c70e8",
+			"//",
+			"index_list_get_element",
+			"index_btree_create_table",
+			"TODO",
+			"alias_delete",
+			"alias",
+			"TODO",
+			"element",
+			"QUID_SHORT_LENGTH",
+			"Key malformed or invalid",
+			"TODO",
+			"DEPR",
+			"DEPRECATYED",
+			"TODO",
+			"QUID_SHORT_LENGTH"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"1c84c6",
+			"uint8_t",
+			"uint32_t",
+			"struct _root_super",
+			"engine_t",
+			"struct _engine_table",
+			"struct engine_table",
+			"engine_t",
+			"unsigned short",
+			"unsigned long long",
+			"struct _blob_info"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "baggermaterieel.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 340.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
