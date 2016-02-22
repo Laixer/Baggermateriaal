@@ -27,5 +27,7 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+	Route::get('auth', 'AuthController@redirectToProvider');
+	Route::get('auth/callback', 'AuthController@handleProviderCallback');
+	Route::get('unauth', 'AuthController@unauth');
 });
