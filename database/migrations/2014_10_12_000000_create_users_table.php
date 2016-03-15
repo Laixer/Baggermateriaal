@@ -34,18 +34,18 @@ class CreateUsersTable extends Migration
             $table->foreign('country_id')->references('id')->on('countries');
         });
 
-        Schema::create('owner_statusses', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('name', 32);
-        });
+        // Schema::create('owner_statusses', function (Blueprint $table) {
+        //     $table->increments('id');
+        //     $table->string('name', 32);
+        // });
 
         Schema::create('owners', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name', 32);
-            $table->string('logo');
+            $table->string('name', 128);
+            $table->string('logo')->nullable();
             $table->string('url', 128);
-            $table->integer('status_id')->unsigned();
-            $table->foreign('status_id')->references('id')->on('owner_statusses');
+            // $table->integer('status_id')->unsigned();
+            // $table->foreign('status_id')->references('id')->on('owner_statusses');
             $table->integer('city_id')->unsigned();
             $table->foreign('city_id')->references('id')->on('cities');
             $table->timestamps();
@@ -53,8 +53,8 @@ class CreateUsersTable extends Migration
 
         Schema::create('shipyards', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name', 32);
-            $table->string('logo');
+            $table->string('name', 128);
+            $table->string('logo')->nullable();
             $table->string('url', 128);
             $table->integer('city_id')->unsigned();
             $table->foreign('city_id')->references('id')->on('cities');
@@ -63,9 +63,13 @@ class CreateUsersTable extends Migration
 
         Schema::create('societies', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('class', 64);
-            $table->string('code', 12);
+            $table->string('abbreviation', 12);
+            $table->string('year', 4);
+            $table->string('logo')->nullable();
+            $table->boolean('iacs');
             $table->string('url', 128);
+            $table->integer('city_id')->unsigned();
+            $table->foreign('city_id')->references('id')->on('cities');
             $table->timestamps();
         });
 
@@ -142,7 +146,7 @@ class CreateUsersTable extends Migration
         Schema::dropIfExists('societies');
         Schema::dropIfExists('shipyards');
         Schema::dropIfExists('owners');
-        Schema::dropIfExists('owner_statusses');
+        // Schema::dropIfExists('owner_statusses');
         Schema::dropIfExists('cities');
         Schema::dropIfExists('countries');
         Schema::dropIfExists('sessions');
